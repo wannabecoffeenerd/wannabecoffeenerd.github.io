@@ -10,12 +10,12 @@ _build:
 categories: ["theory", "espresso"]
 tags: ["evenness", "espresso", "porcupress", "hog", "puck prep"]
 featuredImagePreview: "data/porcupress_puck_density.png"
-description: "Experiments with the hog/porcupress measuring tamped puck density and extraction yields to try and educe how it really works and affects extraction."
+description: "Experiments with the hog/porcupress measuring tamped puck density and extraction yields to try and deduce how it really works and affects extraction."
 ---
 
 <!--more-->
 
-There has been a lot of discussion about the [PorcuPress](https://sworksdesign.com/PorcuPress-p379522166) recently in many coffee forums. Many people have reported improved extractions and taste benefits of using the PorcuPress in their puck prep routine. However, the PorcuPress is not the first of its kind. As far as I am aware, this type of device was initially conceptualized by Michael Cameroon and Matt Perger back in 2017. They called the tool "The Hog" and introduced it in [this video](https://youtu.be/tS0c3ZCtVZs). The video is a great watch since they not only discuss the Hog, but also some ideas that will eventually develop into the [turbo paper](https://www.cell.com/matter/fulltext/S2590-2385(19)30410-2).
+There has been a lot of discussion about the [PorcuPress](https://sworksdesign.com/PorcuPress-p379522166) recently in many coffee forums. Many people have reported improved extractions and taste benefits of using the PorcuPress in their puck prep routine. However, the PorcuPress is not the first of its kind. This type of device has been around for a while and was explored by Michael Cameron and Matt Perger back in 2017. They called it "The Hog" and introduced it in [this video](https://youtu.be/tS0c3ZCtVZs). The video is a great watch since they not only discuss the Hog, but also some ideas that will eventually develop into the [turbo paper](https://www.cell.com/matter/fulltext/S2590-2385(19)30410-2).
 
 The Hog/PorcuPress is fundamentally an array of needles that is used to stab a prepped but untamped dose of coffee in a portafilter. This is typically done after WDT. What it does not involve is any spinning or movement of the tool. It just creates holes and then the puck is tamped as is. So how does it work and what does it do?
 
@@ -29,7 +29,7 @@ But is this really what this tool does? That's the question I tried to answer wi
 
 ## Puck density measurements
 
-Recently, I came across this really simple and elegant way of measuring tamped puck thickness and density by Michael Cooper in their [Quantitative Cafe](https://quantitativecafe.com/2021/10/17/measuring-density/) blog. Michael also designed a neat [3D printed accessory](https://www.thingiverse.com/thing:5023407) to attach to a set of digital calipers. My first thought was to try and use this method of measuring puck density to try and educe what the Hog/PorcuPress is really doing. Going by the conventional theory of how the Hog/PorcuPress works, low density regions created in a tamped puck should reduce the overall puck density compared to a puck prepped and tamped without use of the Hog/PorcuPress.
+Recently, I came across this really simple and elegant way of measuring tamped puck thickness and density by Michael Cooper in their [Quantitative Cafe](https://quantitativecafe.com/2021/10/17/measuring-density/) blog. Michael also designed a neat [3D printed accessory](https://www.thingiverse.com/thing:5023407) to attach to a set of digital calipers. My first thought was to try and use this method of measuring puck density to try and deduce what the Hog/PorcuPress is really doing. Going by the conventional theory of how the Hog/PorcuPress works, low density regions created in a tamped puck should reduce the overall puck density compared to a puck prepped and tamped without use of the Hog/PorcuPress.
 
 The experiment here is fairly simple. I ground some coffee and prepped pucks with and without the PorcuPress and measured puck thickness and density for them. The coffee I used for this experiment was the [Pepe Arguello](https://www.seycoffee.com/products/pepe-arguello) from SEY coffee. The grinder I used was a DF64 with the SSP Multipurpose burrs set at grind setting 4.
 
@@ -78,7 +78,7 @@ So far, we've inferred that the PorcuPress does not really create low density _c
 
 ### Shot parameters
 
-I pulled shots on my Breville Dual Boiler that has the flow control mod. I pulled shots are the finer end of the spectrum resulting in ~40s shot times. These slower shots are inherently more prone to uneven extraction and should highlight the effect of the PorcuPress. All shots were pulled with a bottom paper filter (Chemex filters cut to 2.25" diameter circles) to improve evenness and the rest of the puck prep routine was the same as in the previous section. I used a dynamic bloom characteristic profile for all shots which involves a fast 7ml/s fill up to 7 bar, 0 flow until the pressure drops to 2 bar and then ramp flow up to  reach a peak pressure of 7 bar declining to 3-4 bar.
+I pulled shots on my Breville Dual Boiler that has the flow control mod. I pulled shots at the finer end of the spectrum resulting in ~40s shot times. These slower shots are inherently more prone to uneven extraction and should highlight the effect of the PorcuPress. All shots were pulled with a bottom paper filter (Chemex filters cut to 2.25" diameter circles) to improve evenness and the rest of the puck prep routine was the same as in the previous section. I used a dynamic bloom characteristic profile for all shots which involves a fast 7ml/s fill up to 7 bar, 0 flow until the pressure drops to 2 bar and then ramp flow up to  reach a peak pressure of 7 bar declining to 3-4 bar.
 
 ### Results
 
