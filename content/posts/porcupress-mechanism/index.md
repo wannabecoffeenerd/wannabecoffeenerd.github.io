@@ -78,7 +78,7 @@ So far, we've inferred that the PorcuPress does not really create low density _c
 
 ### Shot parameters
 
-I pulled shots on my Breville Dual Boiler that has the flow control mod. I pulled shots at the finer end of the spectrum resulting in ~40s shot times. These slower shots are inherently more prone to uneven extraction and should highlight the effect of the PorcuPress. All shots were pulled with a bottom paper filter (Chemex filters cut to 2.25" diameter circles) to improve evenness and the rest of the puck prep routine was the same as in the previous section. I used a dynamic bloom characteristic profile for all shots which involves a fast 7ml/s fill up to 7 bar, 0 flow until the pressure drops to 2 bar and then ramp flow up to  reach a peak pressure of 7 bar declining to 3-4 bar.
+I pulled shots on my Breville Dual Boiler that has the [flow control mod](https://qporzk.github.io/BDB-Slayer/Modifications/SlayerMod/). I pulled shots at the finer end of the spectrum resulting in ~40s shot times. These slower shots are inherently more prone to uneven extraction and should highlight the effect of the PorcuPress. All shots were pulled with a bottom paper filter (Chemex filters cut to 2.25" diameter circles) to improve evenness and the rest of the puck prep routine was the same as in the previous section. I used a dynamic bloom characteristic profile for all shots which involves a fast 7ml/s fill up to 7 bar, 0 flow until the pressure drops to 2 bar and then ramp flow up to  reach a peak pressure of 7 bar declining to 3-4 bar.
 
 ### Results
 
