@@ -4,12 +4,13 @@ date: 2022-01-18T20:16:42-08:00
 draft: false
 _build:
   render: always
-  list: false
+  list: true
   publishResources: true
 
 categories: ["theory", "espresso"]
 tags: ["evenness", "espresso", "porcupress", "hog", "puck prep"]
-featuredImagePreview: "data/porcupress_puck_density.png"
+featuredImage: "images/schematic.svg"
+featuredImagePreview: "images/schematic.svg"
 description: "Experiments with the hog/porcupress measuring tamped puck density and extraction yields to try and deduce how it really works and affects extraction."
 ---
 
@@ -44,6 +45,8 @@ The puck prep process I used was as follows:
 5. Tamp with a Normcore V3 tamper that I modded with a 25 lb internal spring for a level and calibrated tamp.
 6. Place the [Flair 58 screen](https://flairespresso.com/product/flair-58-puck-screen/) and tamp again. The reason I used the Flair 58 screen was to prevent the depth measurement insert on the calipers from digging into the puck and therefore underestimating the puck thickness. Also, see [this article](https://quantitativecafe.com/2021/12/29/a-closer-look-at-tamping/) for a more in depth look at what tamping multiple times does.
 
+{{< image src="images/puck_prep.jpg" caption="Image of the post WDT bed on the left and post PorcuPress bed on the right. Notice all the holes created by the PorcuPress needles on the right." >}}
+
 ### Density measurement methodology
 
 After prepping the puck, I made puck thickness and density measurements as follows:
@@ -70,6 +73,9 @@ This seems to contradict the idea that a PorcuPress'd puck retains low density a
 1. The PorcuPress needles break up higher density regions in the pre-tamped puck with disproportionately larger expected change. As a result, this would reduce the total density variance. This hypothesis seems unlikely though.
 2. Holes in the pre-tamped puck created by the PorcuPress  add a degree of freedom for particle movement during tamping that allows them to settle into a higher density configuration than directly tamping. This seems like the more likely hypothesis.
 
+A third hypothesis might be that pushing the needles into the pre-tamped bed would have a lateral/horizontal compression effect and this causes the density increase. Let's try and estimate the volume displaced by these needles compared to the volume of the puck. This ratio is the ratio if the combined cross sectional area of the needles to the cross sectional area of the puck.
+$$ \frac{V_\mathrm{needles}}{V_\mathrm{basket}} = \frac{D_\mathrm{needles}^2 N_\mathrm{needles}}{D_\mathrm{basket}^2} = \frac{0.8^2 \times 100 }{58.5^2} \approx 0.019 $$
+So, the total volume displaced is only 1.9% of the untamped coffee grounds volume. This estimate would suggest that the lateral compression mechanism is unlikely. While using the PorcuPress, I also noticed that the holes created in the first pass remained intact after the second pass with a 180° rotational offset. This also indicates there isn't significant lateral compression.
 
 
 ## Pulling shots and evaluating extraction 
