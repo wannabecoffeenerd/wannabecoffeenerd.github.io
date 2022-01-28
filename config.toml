@@ -1,4 +1,4 @@
-baseURL = "https://wannabecoffeenerd.github.io/"
+baseURL = "https://www.caffeinated.science/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
@@ -7,6 +7,8 @@ title = "Caffeinated Science"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
+
+googleAnalytics = "G-YSNNBZT0MS"
 
 [menu]
   [[menu.main]]
@@ -290,6 +292,22 @@ theme = "LoveIt"
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     duration = -1
+
+  # Site SEO config
+  [params.seo]
+    # image URL
+    image = "/images/logo.png"
+    # thumbnail URL
+    thumbnailUrl = "/images/logo.png"
+
+  # Analytics config
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-YSNNBZT0MS"
+      # whether to anonymize IP
+      anonymizeIP = true
 
 # Author config
 [author]
