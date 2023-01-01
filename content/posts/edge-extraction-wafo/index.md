@@ -1,10 +1,10 @@
 ---
 title: "Edge extraction, \"volcano\" effect and better baskets"
 date: 2022-12-31T20:16:42-08:00
-draft: true
+draft: false
 _build:
   render: always
-  list: true
+  list: false
   publishResources: true
 
 categories: ["theory", "espresso"]
