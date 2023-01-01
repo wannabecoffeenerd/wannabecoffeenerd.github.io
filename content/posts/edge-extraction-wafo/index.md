@@ -26,7 +26,7 @@ I got the chance to try out the WAFO espresso baskets recently (courtesy of [Bri
 
 WAFO make 4 baskets. Two of them are labeled SOE for Single Origin Espresso and the other two are labeled Blend. For this post, I was mainly interested in looking at the SOE baskets since they have the edge to edge holes promising to mitigate edge underextraction. After some initial testing, the SOE Spirit basket looked to have the most even puck bottoms and the SOE Classic basket had a very tiny bit of edge discoloration of spent puck bottoms. For the rest of this post, I will only discuss the SOE Spirit basket.
 
-{{< image src="images/wafo_soe_spirit.jpg" caption="WAFO SOE Spirit basket with slit shaped holes going very close to the edge." >}}
+{{< image src="images/wafo_soe_sprit.jpg" caption="WAFO SOE Spirit basket with slit shaped holes going very close to the edge." >}}
 
 ## Extraction measurements
 
