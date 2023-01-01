@@ -4,7 +4,7 @@ date: 2022-12-31T20:16:42-08:00
 draft: false
 _build:
   render: always
-  list: false
+  list: true
   publishResources: true
 
 categories: ["theory", "espresso"]
@@ -16,7 +16,7 @@ description: "A look at the \"volcano\" effect and the effect that edge extracti
 
 <!--more-->
 
-The [turbo paper](https://www.cell.com/matter/fulltext/S2590-2385(19)30410-2) introduced the concept of the "volcano" effect. This is essentially a statement about the trade-off between finer grinds causing an increase in extraction yield but only to a certain extent. Going too fine causes _channeling_ that then reduces bulk extraction yield due to uneven extraction. The paper has some really nice ideas about modeling extraction, and the discrepancy between the model prediction and the experimental results were attributed to _channeling_. The experiments in the paper used a VST basket without any bottom paper filters. For a while now, I have been wondering if that volcano effect is really a manifestation of _channeling_ as is usually thought of (general [lateral unevenness](https://www.caffeinated.science/posts/espresso-extraction-evenness/#lateral-unevenness)) or if it is really a manifestation of [edge underextraction](https://www.caffeinated.science/posts/espresso-extraction-evenness/#edge-underextraction) stemming from the blank areas without holes on espresso basket edges.
+The [turbo paper](https://www.cell.com/matter/fulltext/S2590-2385(19)30410-2) introduced the concept of the "volcano" effect. This is essentially a statement about the trade-off between finer grinds causing an increase in extraction yield but only to a certain extent. Going too fine causes _channeling_ that then reduces bulk extraction yield due to uneven extraction. The paper has some really nice ideas about modeling extraction, and the discrepancy between model predictions and experimental results were attributed to _channeling_. The experiments in the paper used a VST basket without any bottom paper filters. For a while now, I have been wondering if that volcano effect is really a manifestation of _channeling_ as is usually thought of (general [lateral unevenness](https://www.caffeinated.science/posts/espresso-extraction-evenness/#lateral-unevenness)) or if it is really a manifestation of [edge underextraction](https://www.caffeinated.science/posts/espresso-extraction-evenness/#edge-underextraction) stemming from the blank areas without holes on espresso basket edges.
 
 {{< image src="images/schematic.svg" caption="Schematic theorizing why blank basket edges cause edge underextraction." >}}
 
@@ -30,7 +30,7 @@ WAFO make 4 baskets. Two of them are labeled SOE for Single Origin Espresso and 
 
 ## Extraction measurements
 
-The experiment here is simple. I ground and prepped pucks with different grind settings on my P100 with the Pre-2015 EK43 burr geometry manufactured by SSP. All shots were pulled on a Decent Espresso DE1 with a flat 6 bar profile. The coffee I used for this experiment was the [Worka Site](https://www.seycoffee.com/products/worka-site) from SEY coffee. For all the results, I plotted the burr gap instead of the grind setting using the conversion factor of 75 microns per large tick on the P100. Shots were pulled using the WAFO SOE Spirit basket and with a Pullman 17-19g basket for comparison.
+The experiment here is simple. I ground and prepped pucks with different grind settings on my P100 with the Pre-2015 EK43 burr geometry manufactured by SSP. All shots were pulled on a Decent Espresso DE1 with a [flat 6 bar profile](https://visualizer.coffee/shots/aafb4a69-03a0-48d1-bb84-498171866e67). The coffee I used for this experiment was the [Worka Site](https://www.seycoffee.com/products/worka-site) from SEY coffee. For all the results, I plotted burr gap instead of the grind setting using the conversion factor of 75 microns per large tick on the P100. Shots were pulled using the WAFO SOE Spirit basket and with a Pullman 17-19g basket for comparison.
 
 ### Puck prep
 
@@ -44,11 +44,11 @@ The puck prep process I used was as follows:
 
 ### Results
 
-Here is the main result. The plot below shows the extraction yield as a function of gring burr gap:
+Here is the main result. The plot below shows the extraction yield as a function of grind burr gap:
 
 {{< image src="data/wafo_pullman_extraction_yield.png" caption="Extraction yield vs. burr gap (grind setting, lower is finer) with the WAFO and Pullman baskets." >}}
 
-We clearly see the "volcano" effect here for both baskets. Starting on the right with the coarsest grind, extraction is limited by just the exposed surface area and so the effect of the basket is not significant. As we go finer (left in the plot), more surface area is exposed causing extraction to increase. After a certain point, extraction starts dropping again because of unevenness.
+We clearly see the "volcano" effect here for both baskets. Starting on the right with the coarsest grind, extraction is limited by just the exposed surface area and so the effect of the basket is not significant. As we go finer (left in the plot), more surface area is exposed causing extraction to increase. After a certain point, extraction starts dropping again because of [unevenness](https://www.caffeinated.science/posts/espresso-extraction-evenness/).
 
 
 
@@ -61,6 +61,22 @@ Comparing the two baskets, the WAFO enables much higher extractions. The WAFO pe
 At the volcano peak (right half in the images above), the WAFO puck bottom is perfectly even but the Pullman puck has dark edges indicating edge underextraction. This edge underextraction is why the Pullman has a lower bulk extraction yield compared to the WAFO basket. At the finest grind setting (left half in the images above), both baskets show signs of unevenness in the center of the puck but the Pullman has edge underextraction here as well.
 
 Interestingly, both baskets have the extraction peak at the same grind setting. This indicates that though the Pullman has edge underextraction, it isn't sufficient to reduce bulk extraction.
+
+In terms of shot time, the WAFO basket has slightly higher flow resulting in slightly lower shot times for the same target yield:
+
+{{< image src="data/wafo_pullman_shot_time.png" caption="Shot time vs. burr gap (grind setting, lower is finer) with the WAFO and Pullman baskets." >}}
+
+{{< image src="images/wafo_vs_pullman_peak_comparison.png" caption="Shot comparison between the WAFO and Pullman baskets at peak extraction. [Visualizer link here](https://visualizer.coffee/shots/aafb4a69-03a0-48d1-bb84-498171866e67/compare/c2cf3e8f-e73f-44f9-9e8a-1bc064ef070c)." >}}
+
+## Some other thoughts
+
+- Can pick out WAFO vs Pullman in blind triangle taste testing
+  - WAFO has less harshness, better fruit quality to the acidity, more balanced and generally more enjoyable
+- WAFO with vs without bottom filter, cannot pick out in blind triangle taste testing
+  - Bottom filter not required with WAFO
+  - Surprising that WAFO without bottom filters doesn’t have noticeably more fines in the cup presumably due to smaller holes on the WAFO
+- WAFO vs Pullman with bottom filters, very very close in taste
+  - Could pick out Pullman with bottom filter, but probably because the Decent stopped a few grams short with the Pullman
 
 ## Conclusion
 
