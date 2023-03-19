@@ -4,7 +4,7 @@ date: 2023-03-18T16:00:00-08:00
 draft: false
 _build:
   render: always
-  list: false
+  list: true
   publishResources: true
 
 categories: ["theory", "espresso"]
@@ -41,6 +41,8 @@ We still see the "volcano" effect here for both baskets. However, the peak is ve
 The plot below shows the shot time for both baskets:
 
 {{< image src="data/sworksdesign_pullman_paper_shot_time.png" caption="Shot time vs. burr gap (grind setting, lower is finer) with the Sworksdesign and Pullman+paper baskets." >}}
+
+It is interesting to see that the Sworksdesign basket is faster than Pullman+paper at coarse grind sizes but slower at the finer end of the spectrum. It isn't obvious why this happens. One guess is that the Sworksdesign basket has higher EY at finer grind which could mean the average viscosity is higher therefore causing shot times to be higher.
 
 ### Comparison to previous results
 
